@@ -1,0 +1,14 @@
+{% extends 'template.html' %}
+
+{% block content %}
+
+    <div class="profile">
+        <div class="pic">
+            <img src="{{ url_for('static', filename='img/none.png') }}" alt="Foto perfil">
+        </div>
+        <h1 class="title">Welcome, {{ username}}!!!</h1>
+        <p>Tu email registrado es {{ user_email }}</p>
+    </div>
+
+    
+{% endblock %}
