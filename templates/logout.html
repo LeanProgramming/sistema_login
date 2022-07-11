@@ -1,5 +1,14 @@
 {% extends 'template.html' %}
 
 {% block content %}
-    <h1>Adios, {{ nom }}</h1>
+<div class="content">
+    <div class="content_img">
+        <img src="{{ url_for('static', filename='img/bye.png') }}" alt='Bye'>
+    </div>
+    <div class='content_text'>
+        <h1>Adios, {{ nom }}</h1>
+        <h2>Vuelvas Prontos</h2>
+    </div>
+
+</div>
 {% endblock %}

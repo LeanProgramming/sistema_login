@@ -1,6 +1,6 @@
 body {
-  background-color: #1cd0e8;
-  color: white;
+  background-color: #86b6fe;
+  color: #e1edff;
   display: grid;
  
 }
@@ -43,6 +43,11 @@ input {
   align-items: center;
   gap: 3em;
   margin: 3em 0;
+  padding: 3em;
+}
+
+.content .content_img {
+    width: 50vw;
 }
 
 .content .content_text {
@@ -51,6 +56,12 @@ input {
   justify-content: center;
   align-items: center;
   max-width: 50%;
+  padding: 2em;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(13, 115, 187, 0.7),
+  -5px -5px 10px rgba(13, 115, 187, 0.7);
+  
+  text-align: justify;
 }
 
 .formulario {
